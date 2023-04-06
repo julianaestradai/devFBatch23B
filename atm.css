@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(191, 213, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.atm{
+    background-color: lightpink;
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 6%;
+}
+.atmName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 11, 92);
+    width: 24vw;
+    height: 10vh;
+    margin: 5%;
+}
+.atmName h1{
+    color: yellow;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.atmOp{
+    background-color: rgb(254, 142, 159);
+    width: 24vw;
+    height: 67vh;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.atmDisplay{
+    background-color: rgb(195, 160, 195);
+    width: 22vw;
+    height: 26vh;
+    margin: 8%;
+    border-bottom: 0.5vw  rgb(144, 101, 144) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.atmDisplayBotones{
+    width: 4vw;
+    height: 22vh;
+    border: 3px violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1% 2% 1% 2%;
+}
+
+.atmDisplayBotonesBoton{
+    background-color: lightskyblue;
+    width: 2.5vw;
+    height: 4.6vh;
+    margin: 2%;
+    border-radius: 8%;
+}
+.atmDisplayPantalla{
+    background-color: azure;
+    width: 12vw;
+    height: 22vh;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atmCard{
+    width: 22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.atmCard div{
+    background-color: lightskyblue;
+    width: 4vw;
+    height: 0.5vh;
+    border-radius: 14%;
+    border: 0.3vw rgb(142, 142, 186) solid;
+}
+
+.atmKeyboard{
+    background-color: rgb(195, 160, 195);
+    width: 22vw;
+    height: 16vh;
+    margin: 8%;
+    border-bottom: 0.5vw  rgb(144, 101, 144) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.atmKeyboardTeclado{
+    background-color: rgb(151, 108, 151);
+    width: 13vw;
+    height: 13vh;
+    margin: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.atmKeyboardNum{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: 3vh 3vh 3vh;
+    grid-template-columns: 3vh 3vh 3vh 3vh;
+    column-gap: 0.4vw;
+    row-gap: 0.4vh;
+}
+
+.botNum{
+    background-color: lightskyblue;
+    justify-self: stretch;
+    border-radius: 8%;
+}
+
+.atmKeyboardBot{
+    width: 2vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+}
+
+#botCancel{
+    background-color: red;
+    width: 2.5vw;
+    height: 2.5vh;
+    margin-bottom: 0.4vh;
+}
+
+#botEnter{
+    background-color: rgb(51, 255, 0);
+    width: 2.5vw;
+    height: 2.5vh;
+    margin-bottom: 0.4vh;
+}
+
+#botAmarillo{
+    background-color: yellow;
+    width: 2.5vw;
+    height: 2.5vh;
+    margin-bottom: 0.4vh;
+}
+
+.atmDinero{
+    width: 22vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.atmDineroHueco{
+    background-color: lightskyblue;
+    width: 12vw;
+    height: 0.7vh;
+    border-radius: 15%;
+    border: 0.5vw rgb(142, 142, 186) solid;
+}
